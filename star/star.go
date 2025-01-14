@@ -5,7 +5,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/starainrt/astro/basic"
+	"github.com/yanjunhui/astro/basic"
 )
 
 var (

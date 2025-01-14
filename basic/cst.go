@@ -1,7 +1,7 @@
 package basic
 
 import (
-	. "github.com/starainrt/astro/tools"
+	. "github.com/yanjunhui/astro/tools"
 )
 
 type cst struct {

@@ -3,8 +3,8 @@ package basic
 import (
 	"math"
 
-	"github.com/starainrt/astro/planet"
-	. "github.com/starainrt/astro/tools"
+	"github.com/yanjunhui/astro/planet"
+	. "github.com/yanjunhui/astro/tools"
 )
 
 func UranusL(JD float64) float64 {

@@ -1,8 +1,8 @@
 package star
 
 import (
-	"github.com/starainrt/astro/tools"
 	"fmt"
+	"github.com/yanjunhui/astro/tools"
 	"testing"
 	"time"
 )

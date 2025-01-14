@@ -3,7 +3,7 @@ package basic
 import (
 	"math"
 
-	. "github.com/starainrt/astro/tools"
+	. "github.com/yanjunhui/astro/tools"
 )
 
 func MoonLo(JD float64) float64 { //'月球平黄经

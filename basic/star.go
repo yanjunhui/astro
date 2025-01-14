@@ -1,7 +1,7 @@
 package basic
 
 import (
-	. "github.com/starainrt/astro/tools"
+	. "github.com/yanjunhui/astro/tools"
 	"math"
 )
 
@@ -21,7 +21,7 @@ func StarHeight(jde, ra, dec, lon, lat, timezone float64) float64 {
 	return ArcSin(sinHeight)
 }
 
-//StarAzimuth 星体的方位角
+// StarAzimuth 星体的方位角
 // 传入 jde时间、瞬时赤经、瞬时赤纬、经度、纬度、时区，jde时间应为时区时间
 // 返回方位角，单位为度，正北为0，度数顺时针增加，取值范围[0-360)
 func StarAzimuth(jde, ra, dec, lon, lat, timezone float64) float64 {
@@ -46,7 +46,7 @@ func StarAzimuth(jde, ra, dec, lon, lat, timezone float64) float64 {
 	return Azimuth
 }
 
-//StarHourAngle 星体的时角
+// StarHourAngle 星体的时角
 // 传入 jde时间、瞬时赤经、瞬时赤纬、经度、时区，jde时间应为时区时间
 // 返回时角
 func StarHourAngle(jde, ra, lon, timezone float64) float64 {

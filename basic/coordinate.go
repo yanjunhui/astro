@@ -3,7 +3,7 @@ package basic
 import (
 	"math"
 
-	. "github.com/starainrt/astro/tools"
+	. "github.com/yanjunhui/astro/tools"
 )
 
 /*

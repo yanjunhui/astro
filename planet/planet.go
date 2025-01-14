@@ -1,7 +1,7 @@
 package planet
 
 import (
-	. "github.com/starainrt/astro/tools"
+	. "github.com/yanjunhui/astro/tools"
 	"math"
 )
 

@@ -3,7 +3,7 @@
 
 ## 使用
 
-go get github.com/starainrt/astro
+go get github.com/yanjunhui/astro
 
 ## 示例
 
@@ -22,7 +22,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/starainrt/astro/calendar"
+	"github.com/yanjunhui/astro/calendar"
 	"time"
 )
 
@@ -54,7 +54,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/starainrt/astro/calendar"
+	"github.com/yanjunhui/astro/calendar"
 )
 
 func main() {
@@ -90,8 +90,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/starainrt/astro/moon"
-	"github.com/starainrt/astro/sun"
+	"github.com/yanjunhui/astro/moon"
+	"github.com/yanjunhui/astro/sun"
 	"time"
 )
 
@@ -146,10 +146,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/starainrt/astro/moon"
-	"github.com/starainrt/astro/star"
-	"github.com/starainrt/astro/sun"
-	"github.com/starainrt/astro/tools"
+	"github.com/yanjunhui/astro/moon"
+	"github.com/yanjunhui/astro/star"
+	"github.com/yanjunhui/astro/sun"
+	"github.com/yanjunhui/astro/tools"
 	"time"
 )
 
@@ -208,7 +208,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/starainrt/astro/moon"
+	"github.com/yanjunhui/astro/moon"
 	"time"
 )
 
@@ -250,8 +250,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/starainrt/astro/mercury"
-	"github.com/starainrt/astro/venus"
+	"github.com/yanjunhui/astro/mercury"
+	"github.com/yanjunhui/astro/venus"
 	"time"
 )
 
@@ -308,11 +308,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/starainrt/astro/jupiter"
-	"github.com/starainrt/astro/mars"
-	"github.com/starainrt/astro/neptune"
-	"github.com/starainrt/astro/saturn"
-	"github.com/starainrt/astro/uranus"
+	"github.com/yanjunhui/astro/jupiter"
+	"github.com/yanjunhui/astro/mars"
+	"github.com/yanjunhui/astro/neptune"
+	"github.com/yanjunhui/astro/saturn"
+	"github.com/yanjunhui/astro/uranus"
 	"time"
 )
 

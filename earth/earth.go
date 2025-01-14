@@ -3,7 +3,7 @@ package earth
 import (
 	"time"
 
-	"github.com/starainrt/astro/basic"
+	"github.com/yanjunhui/astro/basic"
 )
 
 // EarthEccentricity 地球偏心率

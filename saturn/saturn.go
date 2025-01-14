@@ -1,10 +1,10 @@
 package saturn
 
 import (
-	"github.com/starainrt/astro/basic"
-	"github.com/starainrt/astro/calendar"
-	"github.com/starainrt/astro/planet"
 	"errors"
+	"github.com/yanjunhui/astro/basic"
+	"github.com/yanjunhui/astro/calendar"
+	"github.com/yanjunhui/astro/planet"
 	"time"
 )
 
@@ -205,7 +205,7 @@ func LastRetrogradeToPrograde(date time.Time) time.Time {
 }
 
 // NextRetrogradeToPrograde 上次留（逆转瞬）
-//// 返回上次逆转瞬留的时间
+// // 返回上次逆转瞬留的时间
 func NextRetrogradeToPrograde(date time.Time) time.Time {
 	jde := basic.TD2UT(basic.Date2JDE(date.UTC()), true)
 	return basic.JDE2DateByZone(basic.NextSaturnRetrogradeToPrograde(jde), date.Location(), false)
